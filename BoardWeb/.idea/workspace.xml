@@ -57,7 +57,7 @@
       <recent name="com.springbook.biz" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserServiceClient">
+  <component name="RunManager" selected="Application.BordServiceClient">
     <configuration name="BordServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbook.biz.board.BordServiceClient" />
       <module name="biz" />
@@ -112,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserServiceClient" />
         <item itemvalue="Application.BordServiceClient" />
+        <item itemvalue="Application.UserServiceClient" />
         <item itemvalue="Application.TVUser" />
         <item itemvalue="Application.CollectionBeanClient" />
       </list>
@@ -129,7 +129,7 @@
       <updated>1641958524282</updated>
       <workItem from="1641958525581" duration="14000" />
       <workItem from="1641958585343" duration="839000" />
-      <workItem from="1641960656951" duration="16375000" />
+      <workItem from="1641960656951" duration="26840000" />
     </task>
     <servers />
   </component>

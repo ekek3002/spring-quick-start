@@ -3,8 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:p="http://www.springframework.org/schema/p"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.2.xsd">
 
 <!--    <bean id="tv" class="polymorphism.SamsungTV" p:speaker-ref="apple" p:price="2700000">-->
 <!--        <constructor-arg index="0" ref="apple" />-->
@@ -50,8 +55,61 @@
 <!--        <bean class="polymorphism.SonySpeaker"></bean>-->
 <!--    </beans>-->
     <context:component-scan base-package="com.springbook.biz"></context:component-scan>
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 <!--    <bean id="userService" class="com.springbook.biz.user.impl.UserServiceImpl">-->
 <!--        <property name="userDAO" ref="userDAO"/>-->
 <!--    </bean>-->
 <!--    <bean id="userDAO" class="com.springbook.biz.user.impl.UserDAO"/>-->
+
+<!--    <bean id="log" class="com.springbook.biz.common.Log4jAdvice"></bean>-->
+<!--    <bean id="before" class="com.springbook.biz.common.BeforeLog"></bean>-->
+<!--    <bean id="around" class="com.springbook.biz.common.AroundAdvice"></bean>-->
+<!--    <bean id="afterReturning" class="com.springbook.biz.common.AfterReturningAdvice"></bean>-->
+<!--    <bean id="afterThrowing" class="com.springbook.biz.common.AfterThrowingAdvice"></bean>-->
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="allPointcut" expression="execution(* com.springbook.biz..*Impl.*(..))"/>-->
+<!--        <aop:pointcut id="getPointcut" expression="execution(* com.springbook.biz..*Impl.get*(..))"/>-->
+<!--        <aop:aspect ref="log">-->
+<!--            <aop:after pointcut-ref="allPointcut" method="printLogging"/>-->
+<!--&lt;!&ndash;            <aop:around pointcut-ref="allPointcut" method="aroundLog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:before pointcut-ref="allPointcut" method="beforeLog"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:after-returning pointcut-ref="getPointcut" method="afterLog" returning="returnObj"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <aop:after-throwing pointcut-ref="allPointcut" method="exceptionLog" throwing="exceptObj"/>&ndash;&gt;-->
+<!--        </aop:aspect>-->
+<!--    </aop:config>-->
+    <!--  DataSource 설정  -->
+    <context:property-placeholder location="classpath:config/database.properties"/>
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+<!--        <property name="driverClassName" value="org.h2.Driver"/>-->
+<!--        <property name="url" value="jdbc:h2:tcp://localhost/~/test"/>-->
+<!--        <property name="username" value="sa"/>-->
+<!--        <property name="password" value=""/>-->
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--  Spring JDBC 설정  -->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--  Transaction 설정  -->
+    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+
+    <tx:advice id="txAdvice" transaction-manager="txManager">
+        <tx:attributes>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+    
+    <aop:config>
+        <aop:pointcut id="txPointcut" expression="execution(* com.springbook.biz..*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
+    </aop:config>
 </beans>

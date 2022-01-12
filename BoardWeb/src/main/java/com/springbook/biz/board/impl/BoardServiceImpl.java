@@ -11,10 +11,15 @@ import java.util.List;
 public class BoardServiceImpl implements BoardService {
 
     @Autowired
-    private BoardDAO boardDAO;
+    private BoardDAOSpring boardDAO;
+//    private BoardDAO boardDAO;
 
     @Override
     public void insertBoard(BoardVO vo) {
+//        if (vo.getSeq() == 0) {
+//            throw new IllegalArgumentException("0번 글은 등록할 수 없습니다.");
+//        }
+//        boardDAO.insertBoard(vo);
         boardDAO.insertBoard(vo);
     }
 
