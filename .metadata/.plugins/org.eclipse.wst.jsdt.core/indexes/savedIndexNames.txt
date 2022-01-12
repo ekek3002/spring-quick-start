@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/yellowin/workspace/study/spring/springquickstart/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3576175488.index
+543945840.index
+4060491057.index
+626558025.index
+2335967463.index
+2168020673.index
