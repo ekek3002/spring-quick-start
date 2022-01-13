@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Jan 13 13:06:29 KST 2022
+org.eclipse.jst.jee.server\:BoardWeb=/Users/yellowin/workspace/program/apache-tomcat-9.0.54/wtpwebapps/BoardWeb
+org.eclipse.jst.jee.server\:/binary\:/Users/yellowin/.m2/repository/org/springframework/spring-web/5.1.5.RELEASE/spring-web-5.1.5.RELEASE.jar=/Users/yellowin/workspace/program/apache-tomcat-9.0.54/wtpwebapps/BoardWeb/WEB-INF/lib/spring-web-5.1.5.RELEASE.jar

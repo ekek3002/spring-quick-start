@@ -1,3 +1,7 @@
 INDEX VERSION 1.131
+/Users/yellowin/workspace/study/spring/springquickstart/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1389317948.index
+/BoardWeb/src/main/java
+/Users/yellowin/workspace/study/spring/springquickstart/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1750749945.index
+/BoardWeb/src/main/java
 /Users/yellowin/workspace/study/spring/springquickstart/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2028433690.index
 /BoardWeb/src/main/java

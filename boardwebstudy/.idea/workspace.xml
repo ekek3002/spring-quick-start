@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="boardwebstudy" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c39dc016-05eb-4330-a9d9-d5e40e5b4bf4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BoardWeb/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/boardwebstudy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boardwebstudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BoardVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BordServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAOSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/AfterAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/AfterReturningAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/AfterThrowingAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/AroundAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/BeforeLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/Log4jAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/LogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/common/PointcutCommon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/UserServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/impl/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/deleteBoard_proc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/getBoard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/getBoardList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/insertBoard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/insertBoard_proc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login_proc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/logout_proc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/updateBoard_proc.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/af/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/af/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/e4/b9/b3/a8/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/e4/b9/b3/a8/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/org.eclipse.jdt.core/state.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/BoardWeb/org.eclipse.jdt.core/state.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/75/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/Servers/.indexes/75/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/11.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.server.discovery.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.server.discovery.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Tomcat v9.0 Server at localhost.launch" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/Tomcat v9.0 Server at localhost.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.core/.launches/servlet_com.springbook.biz.HelloServlet.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1161685145.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1250347531.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1288074828.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1494606349.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1511424757.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1596398202.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2335967463.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2335967463.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2426337509.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2914448089.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3668743876.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3834140179.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/participantsIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/participantsIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2335967463.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jst.jsp.core/taglibindex/2335967463.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BoardWeb/2022/1/3/refactorings.history" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BoardWeb/2022/1/3/refactorings.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BoardWeb/2022/1/3/refactorings.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/BoardWeb/2022/1/3/refactorings.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/BoardWeb.lifecyclemapping" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/BoardWeb.lifecyclemapping" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_1.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_1.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_1.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_2.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_2.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_2.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/_1.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/_1.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/_1.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/_2.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/_2.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/_2.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/5cdb741fed6d74332dc034226655b3f0/segments_4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_1.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_2.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_2.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_2.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_3.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_3.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_3.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_4.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_4.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_4.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_6.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_6.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_6.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_7.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_7.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_7.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_8.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_8.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_8.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_9.cfe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_9.cfs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/_9.si" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments_a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/BoardWeb.container" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/BoardWeb.container" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/publish/publish0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/servers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/catalina.policy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/catalina.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/server.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/logs/localhost_access_log.2022-01-12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/META-INF/maven/com.springbook/biz/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/META-INF/maven/com.springbook/biz/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/classes/com/springbook/biz/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/classes/com/springbook/biz/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/classes/com/springbook/biz/SamsungTv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/aspectjrt-1.6.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/javax.inject-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/log4j-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/slf4j-api-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-context-support-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/spring/root-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/BoardWeb/WEB-INF/web2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.validation/dep.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.springframework.ide.eclipse.beans.core.metadata/metadata/.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/artifacts/biz_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/artifacts/biz_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_aop_4_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_asm_3_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_beans_4_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_context_4_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_context_support_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_core_4_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_expression_4_2_6_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_jdbc_3_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_orm_3_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_tx_3_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_tx_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_web_3_1_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_webmvc_3_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/.settings/org.eclipse.wst.common.component" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/biz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/biz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/src/main/java/com/springbook/biz/board/impl/BoardDAOSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/src/main/java/com/springbook/biz/board/impl/BoardDAOSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/BoardService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/BoardService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/BoardVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/BordServiceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/BordServiceClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardDAOSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardDAOSpring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardRowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardRowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/board/impl/BoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AfterAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AfterAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AfterReturningAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AfterReturningAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AfterThrowingAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AfterThrowingAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AroundAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/AroundAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/BeforeLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/BeforeLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/JDBCUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/JDBCUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/Log4jAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/Log4jAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/LogAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/LogAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/PointcutCommon.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/common/PointcutCommon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/UserServiceClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/UserServiceClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/UserVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/UserVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/impl/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/impl/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/biz/user/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/injection/CollectionBeanClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/injection/CollectionBeanClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/ioc/CollectionBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/com/springbook/ioc/CollectionBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/AppleSpeaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/AppleSpeaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/BeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/BeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/LgTv.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/LgTv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/SamsungTV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/SamsungTV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/SonySpeaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/SonySpeaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/Speaker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/Speaker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/TV.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/TV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/TVUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/classes/polymorphism/TVUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/m2e-wtp/web-resources/META-INF/maven/com.springbook/biz/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/m2e-wtp/web-resources/META-INF/maven/com.springbook/biz/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoardWeb/target/m2e-wtp/web-resources/META-INF/maven/com.springbook/biz/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoardWeb/target/m2e-wtp/web-resources/META-INF/maven/com.springbook/biz/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servers/Tomcat v9.0 Server at localhost-config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Servers/Tomcat v9.0 Server at localhost-config/server.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23dFW5s4DNIYIKnkpjSB77pIS5P" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/impl" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springbook/biz/user" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/springbook/biz/common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.54">
+    <configuration name="BordServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbook.biz.board.BordServiceClient" />
+      <module name="boardwebstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbook.biz.board.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springbook.biz.user.UserServiceClient" />
+      <module name="boardwebstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springbook.biz.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.54" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="11" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="boardwebstudy">
+          <settings>
+            <option name="CONTEXT_PATH" value="/boardwebstudy" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2d9b122b-4c3f-4e3c-9eb1-119ede248e4e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63935" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="boardwebstudy" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BordServiceClient" />
+      <item itemvalue="Application.UserServiceClient" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.54" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BordServiceClient" />
+        <item itemvalue="Application.UserServiceClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c39dc016-05eb-4330-a9d9-d5e40e5b4bf4" name="Changes" comment="" />
+      <created>1642056085541</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642056085541</updated>
+      <workItem from="1642056088441" duration="3362000" />
+      <workItem from="1642059567013" duration="43000" />
+      <workItem from="1642059618301" duration="1130000" />
+      <workItem from="1642060777276" duration="7817000" />
+      <workItem from="1642069015875" duration="540000" />
+      <workItem from="1642069728183" duration="4995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanDefinitionStoreException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
