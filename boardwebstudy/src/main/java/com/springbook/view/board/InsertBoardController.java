@@ -2,14 +2,15 @@ package com.springbook.view.board;
 
 import com.springbook.biz.board.BoardVO;
 import com.springbook.biz.board.impl.BoardDAO;
-import com.springbook.view.controller.Controller;
+import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.mvc.Controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class InsertBoardController implements Controller {
     @Override
-    public String handleRequest(HttpServletRequest request, HttpServletResponse response) {
+    public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) {
         //1.사용자 입력 정보 추출
         String title = request.getParameter("title");
         String writer = request.getParameter("writer");
@@ -25,6 +26,10 @@ public class InsertBoardController implements Controller {
         boardDAO.insertBoard(vo);
 
         //3.화면 네비게이션
-        return "getBoardList.do";
+//        return "getBoardList.do";
+        ModelAndView mav = new ModelAndView();
+//        mav.setViewName("getBoardList.do");
+        mav.setViewName("redirect:getBoardList.do");
+        return mav;
     }
 }

@@ -10,29 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39dc016-05eb-4330-a9d9-d5e40e5b4bf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/DeleteBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/GetBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/GetBoardListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/InsertBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/UpdateBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/HandlerMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/ViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/user/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/user/LogoutController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/config/presentation-layer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/DeleteBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/DeleteBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/GetBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/GetBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/GetBoardListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/GetBoardListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/InsertBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/InsertBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/UpdateBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/UpdateBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/controller/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/controller/HandlerMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/controller/ViewResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/user/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/user/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/user/LogoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/user/LogoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/config/presentation-layer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/config/presentation-layer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoardList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/insertBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/insertBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoardList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/DeleteBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/DeleteBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/GetBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/GetBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/GetBoardListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/GetBoardListController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/InsertBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/InsertBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/UpdateBoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/UpdateBoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/HandlerMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/HandlerMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/ViewResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/controller/ViewResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/user/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/user/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/user/LogoutController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/user/LogoutController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/board/DeleteBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/board/DeleteBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/board/GetBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/board/GetBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/board/GetBoardListController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/board/GetBoardListController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/board/InsertBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/board/InsertBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/board/UpdateBoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/board/UpdateBoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/controller/DispatcherServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/controller/HandlerMapping.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/controller/ViewResolver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/user/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/user/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/user/LogoutController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/user/LogoutController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/config/presentation-layer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/config/presentation-layer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/getBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/getBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/getBoardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/getBoardList.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/insertBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/insertBoard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/getBoard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/board/getBoard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/getBoardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/board/getBoardList.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +102,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/board" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -95,13 +114,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/board" />
       <recent name="$PROJECT_DIR$/web" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/springbook/biz/user/impl" />
       <recent name="$PROJECT_DIR$/src/main/java/com/springbook/biz/user" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/springbook/biz/common" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/board" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/config" />
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/views" />
@@ -246,7 +266,7 @@
       <workItem from="1642059618301" duration="1130000" />
       <workItem from="1642060777276" duration="7817000" />
       <workItem from="1642069015875" duration="540000" />
-      <workItem from="1642069728183" duration="12874000" />
+      <workItem from="1642069728183" duration="14697000" />
     </task>
     <servers />
   </component>
