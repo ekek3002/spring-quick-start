@@ -27,7 +27,7 @@ public class BoardDAO {
     //CRUD 기능의 메소드 구현
     //글등록
     public void insertBoard(BoardVO vo) {
-        System.out.println("BoardDAO.insertBoard");
+        System.out.println("===> JDBC로 insertBoard() 기능 처리");
         try {
             conn = JDBCUtil.getConnection();
             stmt = conn.prepareStatement(BOARD_INSERT);
@@ -62,7 +62,7 @@ public class BoardDAO {
 
     //글 수정
     public void deleteBoard(BoardVO vo) {
-        System.out.println("BoardDAO.deleteBoard");
+        System.out.println("===> JDBC로 deleteBoard() 기능 처리");
         try {
             conn = JDBCUtil.getConnection();
             stmt = conn.prepareStatement(BOARD_DELETE);
@@ -77,7 +77,7 @@ public class BoardDAO {
 
     //글 상세 조회
     public BoardVO getBoard(BoardVO vo) {
-        System.out.println("BoardDAO.getBoard");
+        System.out.println("===> JDBC로 getBoard() 기능 처리");
         BoardVO board = null;
         try {
             conn = JDBCUtil.getConnection();
@@ -103,7 +103,7 @@ public class BoardDAO {
 
     //글 목록 조회
     public List<BoardVO> getBoardList(BoardVO vo) {
-        System.out.println("BoardDAO.getBoard");
+        System.out.println("===> JDBC로 getBoardList() 기능 처리");
         List<BoardVO> boardList = new ArrayList<BoardVO>();
         try {
             conn = JDBCUtil.getConnection();

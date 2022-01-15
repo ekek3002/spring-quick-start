@@ -18,6 +18,6 @@
     boardDAO.insertBoard(vo);
 
     //3.화면 네비게이션
-    response.sendRedirect("getBoardList.jsp");
+    response.sendRedirect("getBoardList_V1.jsp");
 
 %>

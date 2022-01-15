@@ -62,7 +62,7 @@
 //
 //            //3.화면 네비게이션
 //            if (user != null) {
-////                response.sendRedirect("getBoardList.jsp");
+////                response.sendRedirect("getBoardList_V1.jsp");
 //                response.sendRedirect("getBoardList.do");
 //            } else {
 //                response.sendRedirect("login.jsp");
@@ -147,7 +147,7 @@
 //            //3. 검색 결괄르 세션에 저장하고 상세 화면으로 이동한다.
 //            HttpSession session = request.getSession();
 //            session.setAttribute("board", board);
-//            response.sendRedirect("getBoard.jsp");
+//            response.sendRedirect("getBoard_V1.jsp");
 //
 //        } else if (path.equals("/getBoardList.do")) {
 //            System.out.println("글 목록 검색 처리");
@@ -161,7 +161,7 @@
 //            //3.검색 결과를 세션에 저장하고 목록 화면으로 이동한다.
 //            HttpSession session = request.getSession();
 //            session.setAttribute("boardList", boardList);
-//            response.sendRedirect("getBoardList.jsp");
+//            response.sendRedirect("getBoardList_V1.jsp");
 //
 //        }
 //    }
