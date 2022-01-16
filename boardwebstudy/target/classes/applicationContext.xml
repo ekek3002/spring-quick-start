@@ -55,7 +55,7 @@
 <!--        <bean class="polymorphism.SonySpeaker"></bean>-->
 <!--    </beans>-->
     <context:component-scan base-package="com.springbook.biz"></context:component-scan>
-    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
+<!--    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>-->
 <!--    <bean id="userService" class="com.springbook.biz.user.impl.UserServiceImpl">-->
 <!--        <property name="userDAO" ref="userDAO"/>-->
 <!--    </bean>-->
@@ -78,38 +78,38 @@
 <!--        </aop:aspect>-->
 <!--    </aop:config>-->
     <!--  DataSource 설정  -->
-    <context:property-placeholder location="classpath:config/database.properties"/>
+<!--    <context:property-placeholder location="classpath:config/database.properties"/>-->
 
-    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
-<!--        <property name="driverClassName" value="org.h2.Driver"/>-->
-<!--        <property name="url" value="jdbc:h2:tcp://localhost/~/test"/>-->
-<!--        <property name="username" value="sa"/>-->
-<!--        <property name="password" value=""/>-->
-        <property name="driverClassName" value="${jdbc.driver}"/>
-        <property name="url" value="${jdbc.url}"/>
-        <property name="username" value="${jdbc.username}"/>
-        <property name="password" value="${jdbc.password}"/>
-    </bean>
+<!--    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">-->
+<!--&lt;!&ndash;        <property name="driverClassName" value="org.h2.Driver"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="url" value="jdbc:h2:tcp://localhost/~/test"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="username" value="sa"/>&ndash;&gt;-->
+<!--&lt;!&ndash;        <property name="password" value=""/>&ndash;&gt;-->
+<!--        <property name="driverClassName" value="${jdbc.driver}"/>-->
+<!--        <property name="url" value="${jdbc.url}"/>-->
+<!--        <property name="username" value="${jdbc.username}"/>-->
+<!--        <property name="password" value="${jdbc.password}"/>-->
+<!--    </bean>-->
 
-    <!--  Spring JDBC 설정  -->
-    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
-        <property name="dataSource" ref="dataSource"/>
-    </bean>
+<!--    &lt;!&ndash;  Spring JDBC 설정  &ndash;&gt;-->
+<!--    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+<!--        <property name="dataSource" ref="dataSource"/>-->
+<!--    </bean>-->
 
-    <!--  Transaction 설정  -->
-    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
-        <property name="dataSource" ref="dataSource"></property>
-    </bean>
+<!--    &lt;!&ndash;  Transaction 설정  &ndash;&gt;-->
+<!--    <bean id="txManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+<!--        <property name="dataSource" ref="dataSource"></property>-->
+<!--    </bean>-->
 
-    <tx:advice id="txAdvice" transaction-manager="txManager">
-        <tx:attributes>
-            <tx:method name="get*" read-only="true"/>
-            <tx:method name="*"/>
-        </tx:attributes>
-    </tx:advice>
+<!--    <tx:advice id="txAdvice" transaction-manager="txManager">-->
+<!--        <tx:attributes>-->
+<!--            <tx:method name="get*" read-only="true"/>-->
+<!--            <tx:method name="*"/>-->
+<!--        </tx:attributes>-->
+<!--    </tx:advice>-->
 
-    <aop:config>
-        <aop:pointcut id="txPointcut" expression="execution(* com.springbook.biz..*(..))"/>
-        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>
-    </aop:config>
+<!--    <aop:config>-->
+<!--        <aop:pointcut id="txPointcut" expression="execution(* com.springbook.biz..*(..))"/>-->
+<!--        <aop:advisor advice-ref="txAdvice" pointcut-ref="txPointcut"/>-->
+<!--    </aop:config>-->
 </beans>

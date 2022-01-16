@@ -11,8 +11,9 @@ import java.util.List;
 public class BoardServiceImpl implements BoardService {
 
     @Autowired
-    private BoardDAOSpring boardDAO;
-//    private BoardDAO boardDAO;
+    private BoardDAO boardDAO;
+
+//    private BoardDAOSpring boardDAO;
 
 
     @Override
