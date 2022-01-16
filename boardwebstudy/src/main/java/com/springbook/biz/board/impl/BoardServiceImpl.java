@@ -14,6 +14,8 @@ public class BoardServiceImpl implements BoardService {
     private BoardDAOMybatis boardDAO;
 //    private BoardDAO boardDAO;
 
+//    private BoardDAO boardDAO;
+
 //    private BoardDAOSpring boardDAO;
 
 

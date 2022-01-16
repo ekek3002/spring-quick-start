@@ -10,23 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c39dc016-05eb-4330-a9d9-d5e40e5b4bf4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BordServiceClientMybatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAOMybatis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/util/SqlSessionFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappings/board-mapping.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sql-map-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/boardwebstudy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/boardwebstudy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boardwebstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/boardwebstudy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/biz/board/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/biz/board/BoardVO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/biz/board/impl/BoardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/biz/board/impl/BoardDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/biz/board/impl/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/biz/board/impl/BoardServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/com/springbook/view/board/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/WEB-INF/classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoardList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/boardwebstudy/getBoardList.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BoardVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BoardVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BordServiceClientMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/BordServiceClientMybatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAOMybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardDAOMybatis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/biz/board/impl/BoardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/springbook/view/board/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappings/board-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappings/board-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/sql-map-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sql-map-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/BoardVO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/BoardVO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/impl/BoardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/impl/BoardDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/BordServiceClientMybatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/BordServiceClientMybatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/impl/BoardDAOMybatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/impl/BoardDAOMybatis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/impl/BoardServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/biz/board/impl/BoardServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/springbook/view/board/BoardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/springbook/view/board/BoardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappings/board-mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappings/board-mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sql-map-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sql-map-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +66,18 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -102,11 +127,11 @@
       <recent name="$PROJECT_DIR$/web/WEB-INF/views" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.springbook.biz.board" />
       <recent name="com.springbook.biz.board.impl" />
+      <recent name="com.springbook.biz.board" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BordServiceClientMybatis">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.54">
     <configuration name="BordServiceClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springbook.biz.board.BordServiceClient" />
       <module name="boardwebstudy" />
@@ -236,8 +261,8 @@
     <list>
       <item itemvalue="Application.BordServiceClient" />
       <item itemvalue="Application.UserServiceClient" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.54" />
       <item itemvalue="Application.BordServiceClientMybatis" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.54" />
     </list>
     <recent_temporary>
       <list>
@@ -263,7 +288,10 @@
       <workItem from="1642069728183" duration="28893000" />
       <workItem from="1642313882423" duration="2328000" />
       <workItem from="1642316258285" duration="1098000" />
-      <workItem from="1642317407492" duration="3627000" />
+      <workItem from="1642317407492" duration="5406000" />
+      <workItem from="1642324390306" duration="1816000" />
+      <workItem from="1642326237268" duration="492000" />
+      <workItem from="1642326752602" duration="3865000" />
     </task>
     <servers />
   </component>

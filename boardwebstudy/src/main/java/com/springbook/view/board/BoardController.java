@@ -3,7 +3,7 @@ package com.springbook.view.board;
 import com.springbook.biz.board.BoardListVO;
 import com.springbook.biz.board.BoardService;
 import com.springbook.biz.board.BoardVO;
-import com.springbook.biz.board.impl.BoardDAO;
+import com.springbook.biz.board.impl.BoardDAOMybatis;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -68,7 +68,7 @@ public class BoardController {
     public String insertBoardV1(BoardVO vo) {
         System.out.println("글 등록 처리");
 
-        BoardDAO boardDAO = new BoardDAO();
+        BoardDAOMybatis boardDAO = new BoardDAOMybatis();
         boardDAO.insertBoard(vo);
 
         return "getBoardList.do";
@@ -76,13 +76,13 @@ public class BoardController {
 
     //글 수정
     @RequestMapping("/updateBoard.do")
-    public String updateBoard(@ModelAttribute("board") BoardVO vo, BoardDAO boardDAO) {
+    public String updateBoard(@ModelAttribute("board") BoardVO vo, BoardDAOMybatis boardDAO) {
         System.out.println("글 수정 처리");
         boardService.updateBoard(vo);
         return "getBoardList.do";
     }
 
-    public String updateBoardV2(@ModelAttribute("board") BoardVO vo, BoardDAO boardDAO) {
+    public String updateBoardV2(@ModelAttribute("board") BoardVO vo, BoardDAOMybatis boardDAO) {
         System.out.println("글 수정 처리");
         System.out.println("번호 = " + vo.getSeq());
         System.out.println("제목= " + vo.getTitle());
@@ -94,7 +94,7 @@ public class BoardController {
         return "getBoardList.do";
     }
 
-    public String updateBoardV1(BoardVO vo, BoardDAO boardDAO) {
+    public String updateBoardV1(BoardVO vo, BoardDAOMybatis boardDAO) {
         System.out.println("글 수정 처리");
         boardDAO.updateBoard(vo);
         return "getBoardList.do";
@@ -102,13 +102,13 @@ public class BoardController {
 
     //글 삭제
     @RequestMapping("/deleteBoard.do")
-    public String deleteBoard(BoardVO vo, BoardDAO boardDAO) {
+    public String deleteBoard(BoardVO vo, BoardDAOMybatis boardDAO) {
         System.out.println("글 삭제 처리");
         boardService.deleteBoard(vo);
         return "getBoardList.do";
     }
 
-    public String deleteBoardV1(BoardVO vo, BoardDAO boardDAO) {
+    public String deleteBoardV1(BoardVO vo, BoardDAOMybatis boardDAO) {
         System.out.println("글 삭제 처리");
         boardDAO.deleteBoard(vo);
         return "getBoardList.do";
@@ -116,13 +116,13 @@ public class BoardController {
 
     //글 상세 조회
     @RequestMapping("/getBoard.do")
-    public String getBoard(BoardVO vo, BoardDAO boardDAO, Model model) {
+    public String getBoard(BoardVO vo, BoardDAOMybatis boardDAO, Model model) {
         System.out.println("글 상세 조회 처리");
         model.addAttribute("board", boardService.getBoard(vo));
         return "getBoard.jsp";
     }
 
-    public String getBoardV1(BoardVO vo, BoardDAO boardDAO, Model model) {
+    public String getBoardV1(BoardVO vo, BoardDAOMybatis boardDAO, Model model) {
 //        mav.addObject("board", boardDAO.getBoard(vo));
 //        mav.setViewName("getBoard.jsp");
 //        return mav;
@@ -144,7 +144,7 @@ public class BoardController {
     @RequestMapping(value = "/getBoardList.do")
     public String getBoardList(@RequestParam(value = "searchCondition", defaultValue = "TITLE", required = false) String condition,
             @RequestParam(value = "searchKeyword", defaultValue = "", required = false) String keyword,
-            BoardVO vo, BoardDAO boardDAO, Model model) {
+            BoardVO vo, BoardDAOMybatis boardDAO, Model model) {
         System.out.println("글 목록 검색 처리");
         //Null Check
         if (vo.getSearchCondition() == null) vo.setSearchCondition("TITLE");
@@ -156,7 +156,7 @@ public class BoardController {
 
     public String getBoardListV3(@RequestParam(value = "searchCondition", defaultValue = "TITLE", required = false) String condition,
             @RequestParam(value = "searchKeyword", defaultValue = "", required = false) String keyword,
-            BoardVO vo, BoardDAO boardDAO, Model model) {
+            BoardVO vo, BoardDAOMybatis boardDAO, Model model) {
         System.out.println("글 목록 검색 처리");
         model.addAttribute("boardList", boardService.getBordList(vo));
         return "getBoardList.jsp";
@@ -164,7 +164,7 @@ public class BoardController {
 
     public String getBoardListV2(@RequestParam(value = "searchCondition", defaultValue = "TITLE", required = false) String condition,
             @RequestParam(value = "searchKeyword", defaultValue = "", required = false) String keyword,
-            BoardVO vo, BoardDAO boardDAO, Model model) {
+            BoardVO vo, BoardDAOMybatis boardDAO, Model model) {
 
         System.out.println("검색 조건 : " + condition);
         System.out.println("검색 단어 : " + keyword);
@@ -174,7 +174,7 @@ public class BoardController {
         return "getBoardList.jsp";
     }
 
-    public ModelAndView getBoardListV1(BoardVO vo, BoardDAO boardDAO, ModelAndView mav) {
+    public ModelAndView getBoardListV1(BoardVO vo, BoardDAOMybatis boardDAO, ModelAndView mav) {
         mav.addObject("boardList", boardDAO.getBoardList(vo));
         mav.setViewName("getBoardList.jsp");
         return mav;

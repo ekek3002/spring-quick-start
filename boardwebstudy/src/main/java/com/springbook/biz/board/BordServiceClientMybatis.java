@@ -1,9 +1,6 @@
 package com.springbook.biz.board;
 
-import com.springbook.biz.board.impl.BoardDAO;
 import com.springbook.biz.board.impl.BoardDAOMybatis;
-import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.GenericXmlApplicationContext;
 
 import java.util.List;
 
