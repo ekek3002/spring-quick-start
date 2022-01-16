@@ -10,7 +10,7 @@ import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository("boardDAO")
+//@Repository("boardDAO")
 public class BoardDAO {
     //JBDC 관련 변수
     private Connection conn = null;
