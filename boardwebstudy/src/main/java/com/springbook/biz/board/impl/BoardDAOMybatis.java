@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@Repository
+//@Repository
 public class BoardDAOMybatis /*extends SqlSessionDaoSupport*/ {
 //    @Autowired
 //    public void setSqlSessionFactory(SqlSessionFactory sqlSessionFactory) {

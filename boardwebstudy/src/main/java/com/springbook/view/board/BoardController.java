@@ -50,7 +50,7 @@ public class BoardController {
         MultipartFile uploadFile = vo.getUploadFile();
         if (uploadFile.isEmpty()) {
             String fileName = uploadFile.getOriginalFilename();
-            uploadFile.transferTo(new File("/Users/yellowin/workspace/study/spring/springquickstart/file"+fileName));
+            uploadFile.transferTo(new File("/Users/yellowin/workspace/study/spring/springquickstart/file/"+fileName));
         }
 
         boardService.insertBoard(vo);
