@@ -1,0 +1,2 @@
+package com.springbook.biz.util;public class SqlSessionFactoryBean {
+}
